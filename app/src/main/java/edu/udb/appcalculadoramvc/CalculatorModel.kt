@@ -17,4 +17,8 @@ class CalculatorModel {
     fun divide(num1: Double, num2: Double): Double {
         return num1 / num2
     }
+
+    fun sqrt(num1: Double) : Double {
+        return Math.sqrt(num1)
+    }
 }
